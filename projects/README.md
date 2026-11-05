@@ -23,6 +23,7 @@ Independent projects in this repository, grouped by the kind of work they explor
 | Project | Description | Entry point |
 | --- | --- | --- |
 | [Diabetes Progression Regression](classical-ml-regression/) | Compare linear, regularized, baseline, random-forest, and gradient-boosting regressors using training-only cross-validation and held-out metrics. | [`train.py`](classical-ml-regression/train.py) |
+| [Unsupervised Digits Clustering](unsupervised-digits/) | Apply standardized PCA and K-means to handwritten digit features; report internal clustering scores and post-hoc label agreement. | [`train.py`](unsupervised-digits/train.py) |
 
 ## Deep learning and data tools
 
@@ -54,7 +55,8 @@ The applications are examples and experiments; their availability in this reposi
 │   ├── gru-sequence-recall/
 │   ├── semantic-search/
 │   ├── tiny-memory-lab/
-│   └── transformer-classification/
+│   ├── transformer-classification/
+│   └── unsupervised-digits/
 ├── src/                 # Upstream Hugging Face Datasets fork
 ├── docs/                # Upstream documentation
 └── notebooks/           # Upstream notebooks

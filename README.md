@@ -12,6 +12,7 @@ See the [project index](projects/README.md) for descriptions and direct links. F
 - **Agent Workflow** — a fixed, sequential multi-step writing workflow using a local Ollama model.
 - **CNN Image Classification** — a CIFAR-10 convolutional neural network experiment with held-out evaluation and per-class metrics.
 - **Classical ML Regression** — cross-validated comparison of linear and tree-based models with held-out regression metrics.
+- **Unsupervised Digits Clustering** — label-free K-means training with PCA and internal/external clustering evaluation on held-out digits data.
 - **Transformer Classification** — DistilBERT fine-tuning for IMDb sentiment classification.
 - **BERT SST-2** — a compact BERT fine-tuning experiment on GLUE SST-2.
 - **GPT-2 Text Generation** — prompt continuation with a pretrained GPT-2 model.
@@ -24,7 +25,7 @@ Each project has its own dependencies and usage notes. Model and dataset downloa
 
 ## Technical areas
 
-- Machine learning and deep learning: classical models, model evaluation, CNNs, RNNs, LSTMs, and GRUs
+- Machine learning and deep learning: supervised and unsupervised learning, classical models, CNNs, RNNs, LSTMs, and GRUs
 - NLP and language models: Transformers, BERT, GPT-2, and text classification/generation
 - Generative AI: RAG, semantic search, LLM applications, and agent orchestration
 - Data science: dataset exploration and reproducible experiments
