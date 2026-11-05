@@ -1,7 +1,7 @@
-# Praveen's AI Showcase
+# Praveen's Infra
 
 <p align="center">
-  <img src="https://img.shields.io/badge/AI%20Portfolio-Showcasing%20Projects-blueviolet?style=for-the-badge" alt="AI Portfolio" />
+  <img src="https://img.shields.io/badge/AI%20Portfolio-%20Projects-blueviolet?style=for-the-badge" alt="AI Portfolio" />
   <img src="https://img.shields.io/badge/Focus-LLM%20%7C%20Data%20%7C%20Python-0A84FF?style=for-the-badge" alt="Focus" />
 </p>
 
