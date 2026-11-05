@@ -1,4 +1,3 @@
-"""A small local chat app powered by an open-weight Hugging Face model."""
 
 from __future__ import annotations
 
