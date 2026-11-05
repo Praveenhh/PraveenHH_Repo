@@ -1,4 +1,3 @@
-"""Create a quick, local overview of a Hugging Face dataset."""
 
 from __future__ import annotations
 
