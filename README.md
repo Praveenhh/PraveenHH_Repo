@@ -10,6 +10,7 @@ See the [project index](projects/README.md) for descriptions and direct links. C
 
 - **Semantic Search** — semantic retrieval over uploaded text and Markdown, with optional local answer generation.
 - **Agent Workflow** — a fixed, sequential multi-step writing workflow using a local Ollama model.
+- **CNN Image Classification** — a CIFAR-10 convolutional neural network experiment with held-out evaluation and per-class metrics.
 - **Transformer Classification** — DistilBERT fine-tuning for IMDb sentiment classification.
 - **BERT SST-2** — a compact BERT fine-tuning experiment on GLUE SST-2.
 - **GPT-2 Text Generation** — prompt continuation with a pretrained GPT-2 model.
