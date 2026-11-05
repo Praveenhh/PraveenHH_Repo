@@ -1,85 +1,28 @@
-# Praveen's Infra
+# Praveen H.
 
-<p align="center">
-  <img src="https://img.shields.io/badge/AI%20Portfolio-%20Projects-blueviolet?style=for-the-badge" alt="AI Portfolio" />
-  <img src="https://img.shields.io/badge/Focus-LLM%20%7C%20Data%20%7C%20Python-0A84FF?style=for-the-badge" alt="Focus" />
-</p>
+Data Scientist with 4 years of experience working across machine learning, NLP, deep learning, and language-model applications. My work and interests include retrieval-augmented generation, LLMs, transformers, BERT, GPT-2, recurrent and convolutional networks, and agent workflows.
 
-Welcome to my GitHub repository! This repository combines a personal AI/ML showcase with a fork of the Hugging Face Datasets project. The purpose is simple: highlight practical, hands-on AI projects while keeping a reference to the upstream library.
+This account contains personal experiments and a fork of [Hugging Face Datasets](https://github.com/huggingface/datasets). The projects below are small, evolving examples; see each project's notes for its implementation and current limitations.
 
-## Overview
+## Projects
 
-This repo contains:
+- [Everyday Chat](projects/everyday-chat/README.md) — a Gradio chat interface using a locally run open-weight language model.
+- [Dataset Spotlight](projects/dataset-spotlight/README.md) — a command-line utility for inspecting Hugging Face datasets and saving a Markdown summary.
 
-- a portfolio-style collection of AI demos and experiments
-- a practical dataset explorer project
-- an open-weight conversational chatbot demo
-- the upstream Hugging Face Datasets source as a base reference
+## Technical interests
 
-## Featured Projects
+- **Generative AI:** RAG pipelines, LLM applications, prompt design, and agent orchestration.
+- **NLP:** Transformers, BERT, GPT-2, text processing, and language-model workflows.
+- **Machine learning and deep learning:** model development and evaluation; CNN, RNN, LSTM, and GRU architectures.
+- **Data science:** dataset exploration, analysis, and reproducible experimentation.
 
-### 1) Everyday Chat
-A local conversational chatbot demo powered by an open-weight LLM and Gradio.
+## About this repository
 
-- Live-style chat interface
-- Open-source model usage
-- Local inference with Hugging Face Transformers
-- Shows practical LLM interaction in a simple app
+The main codebase in this repository is a fork of Hugging Face Datasets. The projects in `projects/` are separate from that upstream library. For the canonical library and its documentation, visit [huggingface/datasets](https://github.com/huggingface/datasets).
 
-See: [projects/everyday-chat/README.md](projects/everyday-chat/README.md)
+I update these projects as I learn and refine them. Model output can be inaccurate; review model and dataset licenses and documentation before use.
 
-### 2) Dataset Spotlight
-A small command-line project to inspect a Hugging Face dataset, review columns/features, and create a Markdown report.
+## Links
 
-- dataset overview
-- feature inspection
-- sample row previews
-- easy report generation
-
-See: [projects/dataset-spotlight/README.md](projects/dataset-spotlight/README.md)
-
-## Repository Structure
-
-```text
-.
-├── projects/
-│   ├── everyday-chat/
-│   └── dataset-spotlight/
-├── README.md
-├── PORTFOLIO.md
-├── SN_dataset.xlsx
-├── SN_dataset_NEW.xlsx
-├── SN_sample_training_data.xlsx
-├── docs/
-├── notebooks/
-└── src/
-```
-
-## Why this repo stands out
-
-- It is not just a fork — it is a working showcase repository.
-- It reflects practical AI experimentation and hands-on learning.
-- It contains portfolio-worthy projects that are easy to explain and demo.
-- It demonstrates both data-centric and LLM-centric work.
-
-## Project highlights
-
-### Everyday Chat
-- browser-based local conversational app
-- uses open-source Hugging Face models
-- friendly for portfolio demos and presentations
-
-### Dataset Spotlight
-- quick reflection of data understanding and metadata inspection
-- useful for dataset exploration and reporting
-- clean, reusable Python workflow
-
-## Notes
-
-This repository also contains the upstream Hugging Face Datasets source, which is maintained in its own project. The showcase projects are independent and intentionally kept lightweight and runnable for demonstration purposes.
-
-## Connect
-
-- GitHub: [@Praveenhh](https://github.com/Praveenhh)
-- Repository: [Praveenhh/PraveenHH_Repo](https://github.com/Praveenhh/PraveenHH_Repo)
-
+- [GitHub profile](https://github.com/Praveenhh)
+- [Hugging Face Datasets](https://github.com/huggingface/datasets)
