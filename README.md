@@ -6,7 +6,7 @@ This repository includes a fork of [Hugging Face Datasets](https://github.com/hu
 
 ## Projects
 
-See the [project index](projects/README.md) for descriptions and direct links. Current work includes:
+See the [project index](projects/README.md) for descriptions and direct links. Featured work includes:
 
 - **Semantic Search** — semantic retrieval over uploaded text and Markdown, with optional local answer generation.
 - **Agent Workflow** — a fixed, sequential multi-step writing workflow using a local Ollama model.
@@ -14,7 +14,7 @@ See the [project index](projects/README.md) for descriptions and direct links. C
 - **Transformer Classification** — DistilBERT fine-tuning for IMDb sentiment classification.
 - **BERT SST-2** — a compact BERT fine-tuning experiment on GLUE SST-2.
 - **GPT-2 Text Generation** — prompt continuation with a pretrained GPT-2 model.
-- **Tiny Memory Lab** — an LSTM experiment for recalling a marked value after distractor steps.
+- **LSTM Sequence Recall** — a Long Short-Term Memory network trained to retain a marked value across distractor steps, with test accuracy reported by delay.
 - **Everyday Chat** — a local chat interface backed by an open-weight model.
 - **Dataset Spotlight** — a utility for inspecting Hugging Face datasets and writing a Markdown summary.
 

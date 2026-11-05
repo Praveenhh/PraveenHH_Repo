@@ -23,7 +23,7 @@ Independent projects in this repository, grouped by the kind of work they explor
 | Project | Description | Entry point |
 | --- | --- | --- |
 | [CNN Image Classification](cnn-cifar10/) | Train a compact CNN on CIFAR-10, select by validation accuracy, then report test and per-class metrics with plots. | [`train.py`](cnn-cifar10/train.py) |
-| [Tiny Memory Lab](tiny-memory-lab/) | Synthetic sequence-recall experiment using an LSTM and variable distractor delays. | [`train_memory.py`](tiny-memory-lab/train_memory.py) |
+| [LSTM Sequence Recall](tiny-memory-lab/) | Train a Long Short-Term Memory (LSTM) network to recall a marked bit after variable distractor delays; evaluate accuracy by delay. | [`train_memory.py`](tiny-memory-lab/train_memory.py) |
 | [Dataset Spotlight](dataset-spotlight/) | Inspect dataset features and examples; optionally save a Markdown report. | [`dataset_spotlight.py`](dataset-spotlight/dataset_spotlight.py) |
 
 ## Working with these projects
