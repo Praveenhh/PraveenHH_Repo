@@ -1,0 +1,13 @@
+services:
+  rag-api:
+    build: .
+    ports:
+      - "127.0.0.1:8000:8000"
+    environment:
+      MODEL_CACHE: /app/model-cache
+    volumes:
+      - model-cache:/app/model-cache
+    restart: unless-stopped
+
+volumes:
+  model-cache:
