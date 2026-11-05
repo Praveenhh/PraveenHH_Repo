@@ -24,6 +24,7 @@ Independent projects in this repository, grouped by the kind of work they explor
 | --- | --- | --- |
 | [CNN Image Classification](cnn-cifar10/) | Train a compact CNN on CIFAR-10, select by validation accuracy, then report test and per-class metrics with plots. | [`train.py`](cnn-cifar10/train.py) |
 | [LSTM Sequence Recall](tiny-memory-lab/) | Train a Long Short-Term Memory (LSTM) network to recall a marked bit after variable distractor delays; evaluate accuracy by delay. | [`train_memory.py`](tiny-memory-lab/train_memory.py) |
+| [GRU Sequence Recall](gru-sequence-recall/) | Train a multi-layer GRU on variable-delay synthetic recall, select on validation data, and report class- and delay-level test metrics. | [`train.py`](gru-sequence-recall/train.py) |
 | [Dataset Spotlight](dataset-spotlight/) | Inspect dataset features and examples; optionally save a Markdown report. | [`dataset_spotlight.py`](dataset-spotlight/dataset_spotlight.py) |
 
 ## Working with these projects
@@ -43,6 +44,7 @@ The applications are examples and experiments; their availability in this reposi
 │   ├── dataset-spotlight/
 │   ├── everyday-chat/
 │   ├── gpt2-text-generation/
+│   ├── gru-sequence-recall/
 │   ├── semantic-search/
 │   ├── tiny-memory-lab/
 │   └── transformer-classification/

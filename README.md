@@ -14,7 +14,8 @@ See the [project index](projects/README.md) for descriptions and direct links. F
 - **Transformer Classification** — DistilBERT fine-tuning for IMDb sentiment classification.
 - **BERT SST-2** — a compact BERT fine-tuning experiment on GLUE SST-2.
 - **GPT-2 Text Generation** — prompt continuation with a pretrained GPT-2 model.
-- **LSTM Sequence Recall** — a Long Short-Term Memory network trained to retain a marked value across distractor steps, with test accuracy reported by delay.
+- **LSTM Sequence Recall** — an LSTM experiment retaining a marked value across distractor steps.
+- **GRU Sequence Recall** — a multi-layer Gated Recurrent Unit experiment with validation-based selection, class metrics, and accuracy analysis by delay.
 - **Everyday Chat** — a local chat interface backed by an open-weight model.
 - **Dataset Spotlight** — a utility for inspecting Hugging Face datasets and writing a Markdown summary.
 
