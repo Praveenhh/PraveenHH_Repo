@@ -18,6 +18,12 @@ Independent projects in this repository, grouped by the kind of work they explor
 | [BERT SST-2](bert-sst2/) | Fine-tune BERT for sentiment classification on the GLUE SST-2 dataset. | [`train.py`](bert-sst2/train.py) |
 | [GPT-2 Text Generation](gpt2-text-generation/) | Generate a continuation from a text prompt with pretrained GPT-2. | [`generate.py`](gpt2-text-generation/generate.py) |
 
+## Classical machine learning
+
+| Project | Description | Entry point |
+| --- | --- | --- |
+| [Diabetes Progression Regression](classical-ml-regression/) | Compare linear, regularized, baseline, random-forest, and gradient-boosting regressors using training-only cross-validation and held-out metrics. | [`train.py`](classical-ml-regression/train.py) |
+
 ## Deep learning and data tools
 
 | Project | Description | Entry point |
@@ -40,6 +46,7 @@ The applications are examples and experiments; their availability in this reposi
 ├── projects/
 │   ├── agent-workflow/
 │   ├── bert-sst2/
+│   ├── classical-ml-regression/
 │   ├── cnn-cifar10/
 │   ├── dataset-spotlight/
 │   ├── everyday-chat/
