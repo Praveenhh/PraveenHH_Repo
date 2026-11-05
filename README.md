@@ -10,6 +10,7 @@ See the [project index](projects/README.md) for descriptions and direct links. F
 
 - **Semantic Search** — semantic retrieval over uploaded text and Markdown, with optional local answer generation.
 - **Agent Workflow** — a fixed, sequential multi-step writing workflow using a local Ollama model.
+- **Puzzle Solver** — a constraint-based Sudoku solver with naked/hidden-single propagation, MRV search, uniqueness checks, and search diagnostics.
 - **CNN Image Classification** — a CIFAR-10 convolutional neural network experiment with held-out evaluation and per-class metrics.
 - **Classical ML Regression** — cross-validated comparison of linear and tree-based models with held-out regression metrics.
 - **Unsupervised Digits Clustering** — label-free K-means training with PCA and internal/external clustering evaluation on held-out digits data.
@@ -26,6 +27,7 @@ Each project has its own dependencies and usage notes. Model and dataset downloa
 ## Technical areas
 
 - Machine learning and deep learning: supervised and unsupervised learning, classical models, CNNs, RNNs, LSTMs, and GRUs
+- Algorithms: constraint propagation, backtracking search, and heuristic-guided problem solving
 - NLP and language models: Transformers, BERT, GPT-2, and text classification/generation
 - Generative AI: RAG, semantic search, LLM applications, and agent orchestration
 - Data science: dataset exploration and reproducible experiments

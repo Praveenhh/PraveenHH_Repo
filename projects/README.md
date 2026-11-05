@@ -25,6 +25,12 @@ Independent projects in this repository, grouped by the kind of work they explor
 | [Diabetes Progression Regression](classical-ml-regression/) | Compare linear, regularized, baseline, random-forest, and gradient-boosting regressors using training-only cross-validation and held-out metrics. | [`train.py`](classical-ml-regression/train.py) |
 | [Unsupervised Digits Clustering](unsupervised-digits/) | Apply standardized PCA and K-means to handwritten digit features; report internal clustering scores and post-hoc label agreement. | [`train.py`](unsupervised-digits/train.py) |
 
+## Algorithms and problem solving
+
+| Project | Description | Entry point |
+| --- | --- | --- |
+| [Constraint-Based Sudoku Solver](puzzle-solver/) | Solve standard Sudoku with constraint propagation and MRV backtracking; optionally test uniqueness and report search diagnostics. | [`solve.py`](puzzle-solver/solve.py) |
+
 ## Deep learning and data tools
 
 | Project | Description | Entry point |
@@ -53,6 +59,7 @@ The applications are examples and experiments; their availability in this reposi
 │   ├── everyday-chat/
 │   ├── gpt2-text-generation/
 │   ├── gru-sequence-recall/
+│   ├── puzzle-solver/
 │   ├── semantic-search/
 │   ├── tiny-memory-lab/
 │   ├── transformer-classification/
