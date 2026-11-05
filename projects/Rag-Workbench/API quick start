@@ -1,0 +1,5 @@
+
+bash
+curl -X POST http://localhost:8000/documents \
+  -H 'Content-Type: application/json' \
+  -d '{"title":"Returns policy","text":"Customers may return unused items within 30 days with proof of purchase."}'
