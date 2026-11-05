@@ -1,0 +1,7 @@
+datasets>=2.19,<4.0
+transformers>=4.45,<5.0
+accelerate>=1.0,<2.0
+scikit-learn>=1.4,<2.0
+numpy>=1.26,<3.0
+# Install a PyTorch build suitable for your hardware from https://pytorch.org/get-started/locally/
+torch>=2.2,<3.0
