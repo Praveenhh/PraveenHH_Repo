@@ -1,0 +1,6 @@
+streamlit>=1.35,<2.0
+sentence-transformers>=3.0,<6.0
+numpy>=1.26,<3.0
+requests>=2.31,<3.0
+# Install a PyTorch build suitable for your hardware from https://pytorch.org/get-started/locally/
+torch>=2.2,<3.0
