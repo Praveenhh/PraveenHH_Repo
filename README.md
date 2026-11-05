@@ -1,28 +1,35 @@
 # Praveen H.
 
-Data Scientist with 4 years of experience working across machine learning, NLP, deep learning, and language-model applications. My work and interests include retrieval-augmented generation, LLMs, transformers, BERT, GPT-2, recurrent and convolutional networks, and agent workflows.
+Data Scientist with 4 years of experience across machine learning, NLP, deep learning, and language-model applications. My work and interests include retrieval-augmented generation, transformers, BERT, GPT-2, recurrent neural networks, and agent workflows.
 
-This account contains personal experiments and a fork of [Hugging Face Datasets](https://github.com/huggingface/datasets). The projects below are small, evolving examples; see each project's notes for its implementation and current limitations.
+This repository includes a fork of [Hugging Face Datasets](https://github.com/huggingface/datasets) and a collection of independent projects. The projects are maintained separately from the upstream library.
 
 ## Projects
 
-- [Everyday Chat](projects/everyday-chat/README.md) — a Gradio chat interface using a locally run open-weight language model.
-- [Dataset Spotlight](projects/dataset-spotlight/README.md) — a command-line utility for inspecting Hugging Face datasets and saving a Markdown summary.
+See the [project index](projects/README.md) for descriptions and direct links. Current work includes:
 
-## Technical interests
+- **Semantic Search** — semantic retrieval over uploaded text and Markdown, with optional local answer generation.
+- **Agent Workflow** — a fixed, sequential multi-step writing workflow using a local Ollama model.
+- **Transformer Classification** — DistilBERT fine-tuning for IMDb sentiment classification.
+- **BERT SST-2** — a compact BERT fine-tuning experiment on GLUE SST-2.
+- **GPT-2 Text Generation** — prompt continuation with a pretrained GPT-2 model.
+- **Tiny Memory Lab** — an LSTM experiment for recalling a marked value after distractor steps.
+- **Everyday Chat** — a local chat interface backed by an open-weight model.
+- **Dataset Spotlight** — a utility for inspecting Hugging Face datasets and writing a Markdown summary.
 
-- **Generative AI:** RAG pipelines, LLM applications, prompt design, and agent orchestration.
-- **NLP:** Transformers, BERT, GPT-2, text processing, and language-model workflows.
-- **Machine learning and deep learning:** model development and evaluation; CNN, RNN, LSTM, and GRU architectures.
-- **Data science:** dataset exploration, analysis, and reproducible experimentation.
+Each project has its own dependencies and usage notes. Model and dataset downloads, hardware requirements, and limitations vary; read the project README before running anything.
 
-## About this repository
+## Technical areas
 
-The main codebase in this repository is a fork of Hugging Face Datasets. The projects in `projects/` are separate from that upstream library. For the canonical library and its documentation, visit [huggingface/datasets](https://github.com/huggingface/datasets).
+- Machine learning and deep learning: model training, evaluation, CNNs, RNNs, LSTMs, and GRUs
+- NLP and language models: Transformers, BERT, GPT-2, and text classification/generation
+- Generative AI: RAG, semantic search, LLM applications, and agent orchestration
+- Data science: dataset exploration and reproducible experiments
 
-I update these projects as I learn and refine them. Model output can be inaccurate; review model and dataset licenses and documentation before use.
+## Upstream library
+
+The main codebase in this repository is a fork of Hugging Face Datasets. For the canonical project, documentation, and contribution guidance, visit [huggingface/datasets](https://github.com/huggingface/datasets).
 
 ## Links
 
 - [GitHub profile](https://github.com/Praveenhh)
-- [Hugging Face Datasets](https://github.com/huggingface/datasets)
