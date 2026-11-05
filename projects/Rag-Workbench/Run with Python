@@ -1,0 +1,10 @@
+Python 3.11+ is recommended.
+
+
+python -m venv .venv
+# Activate the environment, then:
+pip install -r requirements.txt
+uvicorn app:app --app-dir src --reload
+
+
+#http://localhost:8000/docs.
