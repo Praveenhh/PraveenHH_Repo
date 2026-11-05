@@ -30,3 +30,23 @@ projects/
 ├── rag-workbench/       # Document Q&A API, Docker, tests
 ├── everyday-chat/       # Local open-weight chat demo
 └── dataset-spotlight/   # Dataset inspection utility
+
+
+# 🧭 RAG Evaluation Workbench
+
+A small, runnable Retrieval-Augmented Generation (RAG) API for exploring the core pipeline: ingest text, split it into overlapping chunks, embed and retrieve relevant passages, then generate an answer grounded in the retrieved context. Answers include source references so retrieval can be inspected.
+
+## What this demo shows
+
+- FastAPI endpoints for adding text documents and asking questions.
+- Sentence-Transformers embeddings and cosine-similarity retrieval.
+- Configurable chunk size, overlap, and top-k retrieval.
+- A local Hugging Face text-to-text generation model; no hosted LLM API key.
+- Source snippets and similarity scores in each response.
+- Unit/API tests using small fake models so CI does not download model weights.
+- Docker support for a reproducible local demo.
+
+## Run with Docker
+
+```bash
+docker compose up --build
