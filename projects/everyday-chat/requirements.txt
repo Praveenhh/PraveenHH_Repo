@@ -1,0 +1,5 @@
+gradio>=5.0,<6.0
+transformers>=4.45.0,<5.0
+accelerate>=1.0.0
+# Install the PyTorch build suitable for your hardware from https://pytorch.org/get-started/locally/
+torch>=2.2.0
