@@ -1,5 +1,25 @@
 # Praveen H. | Data Scientist · Applied AI
 
+
+Architecture
+
+POST /documents -> validate text -> chunk -> embed -> in-memory index
+POST /chat      -> embed question -> cosine top-k -> grounded prompt -> local generation
+                                                          └-> answer + source excerpts
+
+
+The index is in memory and is cleared when the process restarts. This is intentionally a compact demonstration, not a persistent or production retrieval service. For production, add durable vector storage, authentication, rate limiting, observability, document lifecycle controls, prompt-injection defenses, and a task-specific evaluation set.
+
+Evaluation and limitations
+This project exposes retrieval scores and source excerpts to make results inspectable, but it does not claim a benchmark score or guarantee factual answers. Similarity scores are not calibrated confidence. The generator can ignore context or produce incorrect answers; validate outputs and evaluate retrieval and generation separately on representative data.
+
+Treat ingested content as untrusted. Do not expose this unauthenticated demo publicly or submit confidential data. Retrieved text is inserted into a model prompt and can contain adversarial instructions.
+
+License
+Project code is licensed under Apache-2.0. The embedding and generation models have their own licenses and terms; consult their Hugging Face model cards.
+
+                                                          
+
 <p align="center">
   <b>4 years of data science experience</b> · Machine Learning · NLP · LLMs · RAG · AI Agents
 </p>
