@@ -3,3 +3,8 @@ bash
 curl -X POST http://localhost:8000/documents \
   -H 'Content-Type: application/json' \
   -d '{"title":"Returns policy","text":"Customers may return unused items within 30 days with proof of purchase."}'
+
+
+curl -X POST http://localhost:8000/chat \
+  -H 'Content-Type: application/json' \
+  -d '{"question":"How long do customers have to return an item?","top_k":3}'
